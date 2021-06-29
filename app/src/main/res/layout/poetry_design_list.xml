@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:background="@color/lightgray">
+
+    <TextView
+        android:id="@+id/txt_poetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mirza Ghalib"
+        android:textSize="20sp"
+        android:minHeight="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:gravity="left"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/txt_poetryData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="“It is easy to be human, very hard to be humane”"
+        android:textSize="19sp"
+        android:padding="5dp"
+        android:minHeight="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/txt_dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10-Apr-2021"
+        android:minHeight="20dp"
+        android:layout_gravity="clip_vertical|right"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"></TextView>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">-->
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+          android:layout_marginRight="100dp"
+            android:textSize="15sp"
+
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginBottom="2dp"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="100dp"
+
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginBottom="2dp"
+            android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+<!--
+//</LinearLayout>-->
